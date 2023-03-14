@@ -12,7 +12,7 @@ will produce a distribution in the dist folder with only the English genshin dat
 
 More examples:
   npm run build -- --languages english chinesesimplified korean japanese
-  npm run build -- --languages none --folder none filename:genshindb-nodata.js
+  npm run build -- --languages nongit pull https://github.com/theBowja/genshin-db.git maine --folder none filename:genshindb-nodata.js
   npm run build -- --languages all --folder achievements filename:all-achievements.js --outdir dist/data/scripts
 
 Available language names can be found in src/language.js file
