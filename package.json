@@ -3,6 +3,11 @@
 	"version": "4.3.12",
 	"description": "Genshin Impact v3.8 JSON data. Search and get results in all in-game languages! Sources from the fandom wiki and GenshinData repo.",
 	"main": "./src/main.js",
+  "exports": {
+    ".": "./src/main.js",
+    "./helper": "./src/helper.js",
+    "./*": "./dist/*/genshindb.js"
+  },
 	"types": "./types/index.d.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
